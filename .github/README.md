@@ -3,7 +3,7 @@
 
 An API for the coding club's Decrypt challenge
 
-For instructions on how to use the API view the docs at
+For instructions on how to use the API, view the docs at
 `📁 doc/routes.md`
 
 </div>
@@ -35,4 +35,3 @@ yarn run dev
 and the web service will be available on `https:/localhost:<PORT>`
 
 ---
-

@@ -28,7 +28,7 @@ Eg: In the case of a local deployment, `{{url}}` will be `https:/localhost:3000`
 ```JSON
 {
     "...",
-    body: {
+    "body": {
         "...",
         "input": "<Float>",
         "..."
@@ -50,7 +50,7 @@ Example request:
 
 ```JSON
 {
-    output: "..."
+    "output": "..."
 }
 ```
 
