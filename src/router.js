@@ -6,19 +6,19 @@ const router = new express.Router();
 
 router.get("/api/problem1", function(req, res) {
   try {
-    const input = parseFloat(req.body.input);
+    const input = req.body.input.split(",");
+    const num1 = parseFloat(input[0]);
+    const num2 = parseFloat(input[1]);
 
-    if (isNaN(input)) {
+    if (isNaN(num1) || isNaN(num2)) {
       throw new Error();
     }
 
-    const result = problem1(input);
+    const result = problem1(num1, num2);
     res.status(200).send({
       output: result,
     });
   } catch (e) {
-    console.error(e);
-
     if (e instanceof Error) {
       res.status(400).send({ error: "Bad request" });
     } else {

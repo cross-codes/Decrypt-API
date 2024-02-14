@@ -11,8 +11,8 @@ An API for the coding club's Decrypt challenge
 
 |Error serial| Status code | Response Body (Plain JSON) |
 |:----------:|:-----------:|:-------------:|
-|(E1)        |400          |{ "error": "Bad request" }|
-|(E2)        |500          |{ "error": "Internal server error" }|
+|E1        |400          |{ "error": "Bad request" }|
+|E2        |500          |{ "error": "Internal server error" }|
 
 ## Routes
 

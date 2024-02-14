@@ -1,10 +1,10 @@
 /**
- * Problem 1: Returns a string that indicates the input number is half of twice the original number.
- * @param {number}
- * @returns {string}
+ * Problem 1: Returns the maximum of two numbers
+ * @param {number, number}
+ * @returns {number}
  */
-function problem1(number) {
-  return "The input number is half of " + 2 * number;
+function problem1(a, b) {
+  return (a > b) ? a : b;
 }
 
 export default problem1;
